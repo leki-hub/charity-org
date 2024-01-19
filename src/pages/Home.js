@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -47,11 +48,8 @@ const Home = () => {
                     </div>
                     <div className="navbar-collapse collapse clearfix">
                        <ul className="navigation clearfix"> 
-                          <li className="current dropdown"><a href="/">Home</a>
-                             <ul>
-                                <li><a href="/">Home</a></li>        
-                             </ul>
-                         </li>
+                          <li className="current dropdown"><Link href="/">Home</Link></li>
+                         <li><Link href="/about">About</Link></li>
                        </ul>
                      </div>
                  </nav>
