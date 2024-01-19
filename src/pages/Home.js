@@ -46,7 +46,9 @@ const Home = () => {
                         </button>
                     </div>
                     <div className="navbar-collapse collapse clearfix">
-                     
+                       <ul className="navigation clearfix"> 
+                    
+                       </ul>
                      </div>
                  </nav>
                </div> 
