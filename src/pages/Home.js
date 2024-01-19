@@ -30,6 +30,14 @@ const Home = () => {
             </section>
             {/* --/header_top_area-- */}
 
+          {/* main menu */}
+            <section className="mainmenu-area">
+               <div className="container">
+                
+            
+               </div> 
+            </section>
+
         </header>
       </div>
            
