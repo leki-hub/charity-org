@@ -50,7 +50,7 @@ const Home = () => {
                        <ul className="navigation clearfix"> 
                           <li className="current dropdown"><Link to="/">Home</Link></li>
                          <li><Link to="/about">About</Link></li>
-                         <li className="dropdown"><Link to="/pages">Pages</Link>
+                         <li className="dropdown"><href to="#pages">Pages</href>
                          
                          
                           </li>
