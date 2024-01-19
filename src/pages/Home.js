@@ -51,7 +51,11 @@ const Home = () => {
                           <li className="current dropdown"><Link to="/">Home</Link></li>
                          <li><Link to="/about">About</Link></li>
                          <li className="dropdown"><href to="#pages">Pages</href>
-                         
+                               <ul>
+                                    <li><Link to="/gallery">Gallery </Link></li>
+                                    <li><Link to="/team">Team</Link></li>
+                                    <li><Link to="/error-page">404</Link></li>
+                                </ul>
                          
                           </li>
                        </ul>
