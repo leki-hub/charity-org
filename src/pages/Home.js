@@ -48,7 +48,9 @@ const Home = () => {
                     <div className="navbar-collapse collapse clearfix">
                        <ul className="navigation clearfix"> 
                           <li className="current dropdown"><a href="/">Home</a>
-                       
+                             <ul>
+                                <li><a href="/">Home</a></li>        
+                             </ul>
                          </li>
                        </ul>
                      </div>
