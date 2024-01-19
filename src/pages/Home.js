@@ -2,9 +2,11 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+            //  --Page Wrapper--
+      <div className="page-wrapper">
+
+      </div>
+           
   )
 }
 
