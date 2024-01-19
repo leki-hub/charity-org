@@ -48,8 +48,12 @@ const Home = () => {
                     </div>
                     <div className="navbar-collapse collapse clearfix">
                        <ul className="navigation clearfix"> 
-                          <li className="current dropdown"><Link href="/">Home</Link></li>
-                         <li><Link href="/about">About</Link></li>
+                          <li className="current dropdown"><Link to="/">Home</Link></li>
+                         <li><Link to="/about">About</Link></li>
+                         <li className="dropdown"><Link to="/pages">Pages</Link>
+                         
+                         
+                          </li>
                        </ul>
                      </div>
                  </nav>
