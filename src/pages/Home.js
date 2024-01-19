@@ -6,6 +6,12 @@ const Home = () => {
       <div className="page-wrapper">
          {/* -- Preloader -- */}
          <div className="preloader"></div>
+                   {/* --Header top area--  */}
+                   <header className="main-header header-style-one">
+
+
+                    
+                   </header>
       </div>
            
   )
