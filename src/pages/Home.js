@@ -33,7 +33,9 @@ const Home = () => {
           {/* main menu */}
             <section className="mainmenu-area">
                <div className="container">
-                
+                 <div className="logo pull-left">
+                    <a href="/"><img src="images/logo.png" alt=""/></a>
+                 </div>
             
                </div> 
             </section>
