@@ -36,7 +36,17 @@ const Home = () => {
                  <div className="logo pull-left">
                     <a href="/"><img src="images/logo.png" alt=""/></a>
                  </div>
-            
+                 <nav className="main-menu pull-left"> 
+                 <div className="navbar-header">     
+                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                        </button>
+                    </div>
+                 
+                 </nav>
                </div> 
             </section>
 
