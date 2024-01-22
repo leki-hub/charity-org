@@ -373,7 +373,13 @@ const Home = () => {
                         {/* -- End single-item -- */}
                     </div>
                       <div className="col-md-4 col-sm-4 col-xs-12">
-                        
+                      <div className="mission-item">
+                            <i className="flaticon-heart"></i>
+                            <h4><a href="#">fund raising</a></h4>
+                            <p>Lets join hands together for great goals<br/>
+                                Will be attained<br/>
+                                Any amount is appreciated.</p>
+                        </div>
                         
                      </div>
 
