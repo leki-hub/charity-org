@@ -345,7 +345,9 @@ const Home = () => {
 		</section>
         {/* ...Section... */}
         <section className="mission-seciton">
-
+          <div className="container">
+            
+          </div>
 
         </section>
 
