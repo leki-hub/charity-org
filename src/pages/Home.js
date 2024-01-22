@@ -379,12 +379,10 @@ const Home = () => {
                             <p>Lets join hands together for great goals<br/>
                                 Will be attained<br/>
                                 Any amount is appreciated.</p>
-                        </div>
-                        
+                        </div>     
                      </div>
-
-
              </div>
+             <a href="#" className="btn-3">Join Our Compain</a>
           </div>
 
         </section>
