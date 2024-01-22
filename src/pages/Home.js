@@ -349,6 +349,10 @@ const Home = () => {
              <div className="section-title text-center">
                 <h6>HELP to THE poor People</h6>
                 <h2>our <span>mission</span></h2>
+                <p>Your Participation to this activity will go along way to support a dream<br/>
+                        be a volunteer today. </p>
+
+
              </div>
           </div>
 
