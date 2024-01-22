@@ -357,6 +357,8 @@ const Home = () => {
                   <div className="mission-item">
                   <i className="flaticon-medical"></i>
                   <h4><a href="#">give donation</a></h4>
+                      <p>Take part in uplifting the needy<br/>You will get more in abundance<br/>
+                        and suplication.</p>
                   </div>
 
                 </div>
