@@ -56,8 +56,14 @@ const Home = () => {
                                     <li><Link to="/team">Team</Link></li>
                                     <li><Link to="/error-page">404</Link></li>
                                 </ul>
-                         
                           </li>
+                          <li className="dropdown"><a href="/blog">Blog</a>
+                                <ul>
+                                    <li><a href="/blog">Blog</a></li>
+                                    <li><a href="/single-blog.html"> Single Blog</a></li>
+                                </ul>
+                            </li>
+
                        </ul>
                      </div>
                  </nav>
