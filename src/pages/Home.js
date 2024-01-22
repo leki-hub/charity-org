@@ -343,8 +343,11 @@ const Home = () => {
                 </div>
             
 		</section>
+        {/* ...Section... */}
+        <section className="mission-seciton">
 
 
+        </section>
 
 
 
