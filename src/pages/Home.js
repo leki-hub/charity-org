@@ -63,7 +63,12 @@ const Home = () => {
                                     <li><Link to="/single-blog"> Single Blog</Link></li>
                                 </ul>
                             </li>
-
+                            <li className="dropdown"><Link to="/causes">Causes</Link>
+                                <ul>
+                                    <li><Link to="/causes">Causes</Link></li>
+                                    <li><Link to="/single-causes"> Single Causes</Link></li>
+                                </ul>
+                            </li>
                        </ul>
                      </div>
                  </nav>
