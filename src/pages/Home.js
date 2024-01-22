@@ -347,8 +347,8 @@ const Home = () => {
         <section className="mission-seciton">
           <div className="container">
              <div className="section-title text-center">
-
-
+                <h6>HELP to THE poor People</h6>
+ 
              </div>
           </div>
 
