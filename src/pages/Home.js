@@ -75,6 +75,7 @@ const Home = () => {
                                     <li><Link to="/single-event"> Single Event</Link></li>
                                 </ul>
                             </li>
+                            <li><Link to="contact">Contact</Link></li>
                        </ul>
                      </div>
                  </nav>
