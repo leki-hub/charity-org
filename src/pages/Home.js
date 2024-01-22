@@ -360,8 +360,18 @@ const Home = () => {
                       <p>Take part in uplifting the needy<br/>You will get more in abundance<br/>
                         and suplication.</p>
                   </div>
-
                 </div>
+                <div className="col-md-4 col-sm-4 col-xs-12">
+                        {/* another single-item -- */}
+                        <div className="mission-item">
+                            <i className="flaticon-heart-3"></i>
+                            <h4><a href="#">become volunteer</a></h4>
+                            <p>Becoming a Volunteer is a win-win<br/>
+                                While we benefit from your art of kindness<br/>
+                                You reap from us indirectly.</p>
+                        </div>
+                        {/* -- End single-item -- */}
+                    </div>
 
              </div>
           </div>
