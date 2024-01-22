@@ -353,8 +353,11 @@ const Home = () => {
                         be a volunteer today. </p>
              </div>
              <div className="row">
+                <div className="col-md-4 col-sm-4 col-xs-12">
 
-                
+
+                </div>
+
              </div>
           </div>
 
