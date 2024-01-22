@@ -69,6 +69,12 @@ const Home = () => {
                                     <li><Link to="/single-causes"> Single Causes</Link></li>
                                 </ul>
                             </li>
+                            <li className="dropdown"><Link to="/event">Event</Link>
+                                <ul>
+                                    <li><Link to="/event">Event</Link></li>
+                                    <li><Link to="/single-event"> Single Event</Link></li>
+                                </ul>
+                            </li>
                        </ul>
                      </div>
                  </nav>
