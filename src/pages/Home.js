@@ -526,8 +526,12 @@ const Home = () => {
           {/* --/wellcome-section--  */}
           <section className="event-seciton">
               <div className="container">
+              <div className="section-title">
+                    <h2>upcoming <span>event</span></h2>
+                    <p>By supporting this initiative, you are supporting a generation.<br/> 
+                       Below are a list event programs to be undertaken.</p>
+                </div>
 
-                
               </div>
             
             
