@@ -388,9 +388,12 @@ const Home = () => {
         </section>
           {/* --.welcome-seciton-- */}
           <section className="welcome-seciton page-3">
+            <div className="container">
+                 
+                 
+            </div>
 
 
-            
           </section>
 
 
