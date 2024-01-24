@@ -516,28 +516,21 @@ const Home = () => {
                                     {/* -- /progress-item -- */}
                                 <p>By supporting this initiative, you are supporting a generation.</p>
                                 <a href="#">Donate now</a>
+                              </div>
                             </div>
-                        </div>
-                        {/* -- End single-item -- */}
-                    </div>
-
-
-               </div>
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-          </section>
-
-
+                         {/* -- End single-item -- */}
+                         </div>
+                      </div>
+                   </div>
+               </section>
+          {/* --/wellcome-section--  */}
+          <section className="event-seciton">
+            
+            
+            
+            
+            
+             </section>
 
 
 
