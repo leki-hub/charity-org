@@ -392,6 +392,8 @@ const Home = () => {
             <div className="section-title text-center">
                <h6>HELP to THE poor People</h6>
                  <h2>Recent <span>Causes</span></h2>
+                 <p>Taking part in this initiative, is taking part in the future<br/> 
+                       We are glad having you as a team player in this initiative </p>
             </div>
 
             </div>
