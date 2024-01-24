@@ -395,6 +395,18 @@ const Home = () => {
                  <p>Taking part in this initiative, is taking part in the future<br/> 
                        We are glad having you as a team player in this initiative </p>
             </div>
+              <div className="row">
+
+
+               </div>
+
+
+
+
+
+
+
+
 
             </div>
 
