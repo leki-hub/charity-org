@@ -525,7 +525,10 @@ const Home = () => {
                </section>
           {/* --/wellcome-section--  */}
           <section className="event-seciton">
-            
+              <div className="container">
+
+                
+              </div>
             
             
             
