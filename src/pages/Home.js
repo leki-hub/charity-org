@@ -396,6 +396,10 @@ const Home = () => {
                        We are glad having you as a team player in this initiative </p>
             </div>
               <div className="row">
+                  <div className="col-md-3 col-sm-6 col-xs-12">
+
+
+                 </div>
 
 
                </div>
