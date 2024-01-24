@@ -397,7 +397,10 @@ const Home = () => {
             </div>
               <div className="row">
                   <div className="col-md-3 col-sm-6 col-xs-12">
+                  <div className="welcome-item hvr-float-shadow">
 
+                    
+                  </div>
 
                  </div>
 
