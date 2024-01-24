@@ -397,10 +397,17 @@ const Home = () => {
             </div>
               <div className="row">
                   <div className="col-md-3 col-sm-6 col-xs-12">
-                  <div className="welcome-item hvr-float-shadow">
+                     <div className="welcome-item hvr-float-shadow">
+                     <div className="img-holder">
+                               <figure><Link to="/single-causes"><img src="images/blog/1.jpg" alt="Images" /></Link></figure>
+                                {/* -- Start overlay -- */}
+                                <div className="overlay">
+                                    <h4><Link to="/single-causes">Help to reach <span>food!</span></Link></h4>
+                                </div>
+                                {/* -- End overlay -- */}
+                            </div>
 
-                    
-                  </div>
+                     </div>
 
                  </div>
 
