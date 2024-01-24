@@ -391,7 +391,7 @@ const Home = () => {
             <div className="container">
             <div className="section-title text-center">
                <h6>HELP to THE poor People</h6>
-
+                 <h2>Recent <span>Causes</span></h2>
             </div>
 
             </div>
