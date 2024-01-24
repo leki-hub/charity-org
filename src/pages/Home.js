@@ -406,7 +406,10 @@ const Home = () => {
                                 </div>
                                 {/* -- End overlay -- */}
                             </div>
+                            <div className="text">
 
+                                
+                            </div>
                      </div>
 
                  </div>
