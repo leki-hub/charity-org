@@ -386,7 +386,12 @@ const Home = () => {
           </div>
 
         </section>
+          {/* --.welcome-seciton-- */}
+          <section className="welcome-seciton page-3">
 
+
+            
+          </section>
 
 
 
