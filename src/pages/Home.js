@@ -382,7 +382,7 @@ const Home = () => {
                         </div>     
                      </div>
              </div>
-             <a href="#" className="btn-3">Join Our Compain</a>
+             <a href="#" className="btn-3">Join Our Company</a>
           </div>
 
         </section>
