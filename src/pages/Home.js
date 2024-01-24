@@ -455,10 +455,39 @@ const Home = () => {
                                 <a href="#">Donate now</a>
                             </div>
                         </div>
-                        
-
                      </div>
-
+                     <div className="col-md-3 col-sm-6 col-xs-12">
+                        {/* -- Start single-item -- */}
+                        <div className="welcome-item hvr-float-shadow">
+                            <div className="img-holder">
+                               <figure><Link to="/single-causes"><img src="images/blog/3.jpg" alt="Images"/></Link></figure>
+                                {/* -- Start overlay -- */}
+                                <div className="overlay">
+                                    <h4><Link href="/single-causes">Help to reach <span>food!</span></Link></h4>
+                                </div>
+                                {/* -- End overlay -- */}
+                            </div>
+                            <div className="text">
+                                <div className="pro-text">
+                                    <h4>$44,210</h4>
+                                    <p>Raised of <span>$99,541</span></p></div>
+                                    {/* -.progress-item - */}
+                                    <div className="causes-progress">
+                                        <div className="progress-item">
+                                            <div className="progress" data-value="35">
+                                                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                    <div className="value-holder"><span className="value">35</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* -- /progress-item -- */}
+                                <p>By supporting this initiative, you are supporting a generation.</p>
+                                <a href="#">Donate now</a>
+                            </div>
+                        </div>
+                        {/* -- End single-item -- */}
+                    </div>
 
 
                </div>
