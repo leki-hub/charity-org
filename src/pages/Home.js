@@ -412,8 +412,14 @@ const Home = () => {
                                     <p>Raised of <span>$99,541</span></p></div>
                                 {/* --.progress-item -- */}
                                 <div className="causes-progress">
+                                <div className="progress-item">
+                                            <div className="progress" data-value="70">
+                                                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                    <div className="value-holder"><span className="value">70</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    
                                 </div>
                             </div>
                      </div>
