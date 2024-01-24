@@ -410,7 +410,11 @@ const Home = () => {
                             <div className="pro-text">
                                     <h4>$44,210</h4>
                                     <p>Raised of <span>$99,541</span></p></div>
+                                {/* --.progress-item -- */}
+                                <div className="causes-progress">
 
+                                    
+                                </div>
                             </div>
                      </div>
 
