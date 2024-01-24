@@ -532,11 +532,15 @@ const Home = () => {
                        Below are a list event programs to be undertaken.</p>
                 </div>
                 <div className="row">
+                     <div className="col-md-8 col-sm-8 col-xs-12">
+
+
+
+                      </div>
 
 
 
 
-                    
                 </div>
 
               </div>
