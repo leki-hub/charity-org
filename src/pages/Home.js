@@ -546,7 +546,16 @@ const Home = () => {
                                 </div>
                                 {/* -- End single-item -- */}
                             </div>
-                        
+                            {/* another single item */}
+                            <div className="col-md-6 col-sm-6 col-xs-12">
+
+
+
+
+
+                            </div>
+                            
+
                         
                          </div>
 
