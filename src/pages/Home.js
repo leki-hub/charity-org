@@ -538,9 +538,9 @@ const Home = () => {
                                 {/* -- Start single-item -- */}
                                 <div className="event-item">
                                     <div className="img-holder">
-                                       <figure><a href="single-event.html"><img src="images/blog/5.jpg" alt="Images"/></a></figure>
+                                       <figure><Link to="/single-event"><img src="images/blog/5.jpg" alt="Images"/></Link></figure>
                                         <div className="text">
-                                            <h4><a href="single-event.html">October 5, 2017 <span>giving food</span></a></h4>
+                                            <h4><Link to="/single-event">October 5, 2017 <span>giving food</span></Link></h4>
                                         </div>
                                     </div>
                                 </div>
