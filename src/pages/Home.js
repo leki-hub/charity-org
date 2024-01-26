@@ -568,10 +568,15 @@ const Home = () => {
                                </div>
                             </div>
                             <div className="col-md-6 col-sm-6 col-xs-12">
-                               <div className="event-item">
+                                <div className="event-item">
+                                <div className="img-holder">
+                                       <figure><Link to="/single-event"><img src="images/blog/8.jpg" alt="Images" /></Link></figure>
+                                        <div className="text">
+                                            <h4><Link to="/single-event">October 5, 2017 <span>giving food</span></Link></h4>
+                                        </div>
+                                    </div>
 
-                                
-                               </div>
+                                </div>
 
 
                             </div>
