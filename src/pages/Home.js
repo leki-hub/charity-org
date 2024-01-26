@@ -615,10 +615,15 @@ const Home = () => {
                                 <p> Manager</p>
                             </div>
                             <p>A committed team player<br/>
-                                A peoples person , reachable.</p>
-                       </div>
+                                A people's person , reachable.</p>
+                         </div>
+                    </div>
+          <div className="client-item">
 
-                 </div>
+
+            
+          </div>
+
 
                 </div>
 
