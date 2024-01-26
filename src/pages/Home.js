@@ -559,11 +559,13 @@ const Home = () => {
                             </div>
                             <div className="col-md-6 col-sm-6 col-xs-12">
                                <div className="event-item">
-                                
+                               <div className="img-holder">
+                                       <figure><a href="single-event.html"><img src="images/blog/7.jpg" alt="Images"/></a></figure>
+                                        <div className="text">
+                                            <h4><a href="single-event.html">October 5, 2017 <span>giving food</span></a></h4>
+                                        </div>
+                                    </div>
                                </div>
-
-
-
                             </div>
 
                         
