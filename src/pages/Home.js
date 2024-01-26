@@ -556,12 +556,13 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
                             </div>
-                            
+                            <div className="col-md-6 col-sm-6 col-xs-12">
+
+
+
+                                
+                            </div>
 
                         
                          </div>
