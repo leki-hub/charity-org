@@ -604,7 +604,12 @@ const Home = () => {
                 <div className="section-title text-center">
                     <h2>client <span>feedback</span></h2>
                 </div>
-                
+                <div className="clientcarosule">
+
+                    
+                </div>
+
+
                 </div>
 
              </section>
