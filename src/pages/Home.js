@@ -585,7 +585,13 @@ const Home = () => {
                       <div className="date">
                                    <h4>19<span className="sep">th sep,</span> <span> 2017</span></h4>
                                </div>
-
+                               <h2>help children: build a School for education</h2>
+                                <h4>Join Our Event: <span>Donate</span></h4>
+                                <p>By supporting this initiative, you are uplifting a generation.
+                                By uplifting a generation, societies are strengthened.
+                                By strengthening a society, the living standards are improved.
+                                My improving the standards of living, life is lived well .</p>
+                                <Link href="/single-event">View All Events</Link>
                       </div>
                    
                    </div>
