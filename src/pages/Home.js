@@ -592,23 +592,17 @@ const Home = () => {
                                 By strengthening a society, the living standards are improved.
                                 My improving the standards of living, life is lived well .</p>
                                 <Link href="/single-event">View All Events</Link>
-                      </div>
-                   
-                   </div>
-  
-               </div>
-
-
-
-                </div>
-
-              </div>
-            
-            
-            
-            
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>   
              </section>
+             {/* --Start client-section -- */}
+             <section className="client-section" style={{ backgroundImage: 'url(images/blog/bg5.jpg)' }}>
 
+
+             </section>
 
 
 
