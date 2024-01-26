@@ -600,7 +600,9 @@ const Home = () => {
              </section>
              {/* --Start client-section -- */}
              <section className="client-section" style={{ backgroundImage: 'url(images/blog/bg5.jpg)' }}>
-
+                <div className="container">
+                    
+                </div>
 
              </section>
 
