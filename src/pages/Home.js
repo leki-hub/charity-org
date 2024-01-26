@@ -601,7 +601,10 @@ const Home = () => {
              {/* --Start client-section -- */}
              <section className="client-section" style={{ backgroundImage: 'url(images/blog/bg5.jpg)' }}>
                 <div className="container">
-                    
+                <div className="section-title text-center">
+                    <h2>client <span>feedback</span></h2>
+                </div>
+                
                 </div>
 
              </section>
