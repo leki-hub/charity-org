@@ -575,18 +575,14 @@ const Home = () => {
                                             <h4><Link to="/single-event">October 5, 2017 <span>giving food</span></Link></h4>
                                         </div>
                                     </div>
-
                                 </div>
-
-
                             </div>
-
-                        
                          </div>
-
-
                       </div>
+                <div className="col-md-4 col-sm-4 col-xs-12">
 
+
+               </div>
 
 
 
