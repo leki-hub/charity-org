@@ -582,8 +582,10 @@ const Home = () => {
                 <div className="col-md-4 col-sm-4 col-xs-12">
                    <div className="event-right"> 
                       <div className="text">
+                      <div className="date">
+                                   <h4>19<span className="sep">th sep,</span> <span> 2017</span></h4>
+                               </div>
 
-                        
                       </div>
                    
                    </div>
