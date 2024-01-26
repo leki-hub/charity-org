@@ -605,8 +605,21 @@ const Home = () => {
                     <h2>client <span>feedback</span></h2>
                 </div>
                 <div className="clientcarosule">
+                 <div className="client-item">
+                    <div className="client">
+                            <div className="img-holder">
+                                <figure><img src="images/blog/3.png" alt="Images" /></figure>
+                            </div>
+                            <div className="text">
+                                <h4>Leki Emmanuel</h4>
+                                <p> Manager</p>
+                            </div>
+                            <p>A committed team player<br/>
+                                A peoples person , reachable.</p>
+                       </div>
 
-                    
+                 </div>
+
                 </div>
 
 
