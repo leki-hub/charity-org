@@ -1,7 +1,19 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { useForm } from 'react-hook-form';
+
+
+const onSubmit = (data, e) => {
+    e.preventDefault(); 
+   
+    console.log('Form submitted:', data);
+    // Can send the form data to the server
+  };
+
 
 const Home = () => {
+    const { register, handleSubmit, errors } = useForm();
+
   return (
             //  --Page Wrapper--
       <div className="page-wrapper">
@@ -742,7 +754,7 @@ const Home = () => {
                 </div> 
             </div>
         </section>
-          {/* --.contact-seciton-- */}
+          {/* --.contact-section-- */}
           <section className="contact-seciton" style={{backgroundImage:'url(images/blog/bg1.jpg)'}}>
             <div className="img-left wow slideInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                 <figure><img src="images/blog/2.png" alt="Images" /></figure>
@@ -759,22 +771,47 @@ const Home = () => {
                     </div>
                     <div className="col-md-5  col-sm-9">
                         <div className="default-form clearfix">
-                            <form method="post" className="contact-form">
-                                <div className="form-group name">
-                                    <input type="text" name="lastname" placeholder="Full Name"/>
-                                </div>
-                                <div className="form-group">
-                                    <input type="email" name="email" placeholder="Email"/>
-                                </div>
-                                <div className="form-group">
-                                    <input type="email" name="phone" placeholder="Mobile "/>
-                                </div>
-                                <div className="form-group comments">
-                                    <textarea name="message" placeholder="Text"></textarea>
-                                </div>
-                                <button type="submit" className="btn btn-1">Contact Now</button>
-                            </form>
-                        </div>
+                        <form method="post" className="contact-form" onSubmit={(e) => handleSubmit(onSubmit(e))}>
+                      <div className="form-group name">
+                  <input
+          type="text"
+          name="lastname"
+          placeholder="Full Name"
+          ref={register({ required: 'Full Name is required' })}
+        />
+        {errors.lastname && <span>{errors.lastname.message}</span>}
+      </div>
+      <div className="form-group">
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          ref={register({ required: 'Email is required', pattern: /^\S+@\S+$/i })}
+        />
+        {errors.email && <span>{errors.email.message}</span>}
+      </div>
+      <div className="form-group">
+        <input
+          type="text"
+          name="phone"
+          placeholder="Mobile"
+          ref={register({ required: 'Mobile is required' })}
+        />
+        {errors.phone && <span>{errors.phone.message}</span>}
+      </div>
+      <div className="form-group comments">
+        <textarea
+          name="message"
+          placeholder="Text"
+          ref={register({ required: 'Message is required' })}
+        ></textarea>
+        {errors.message && <span>{errors.message.message}</span>}
+      </div>
+      <button type="submit" className="btn btn-1">
+        Contact Now
+      </button>
+    </form>
+                    </div>
                     </div>
                     
                 </div>
