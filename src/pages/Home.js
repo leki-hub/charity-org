@@ -636,6 +636,11 @@ const Home = () => {
                      <div className="img-holder">
                                 <figure><img src="images/blog/4.png" alt="Images" /></figure>
                             </div>
+                            <div className="text">
+                                <h4>burtho leo</h4>
+                                <p>doctor</p>
+                            </div>
+
 
                      </div>
 
