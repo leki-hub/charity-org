@@ -644,18 +644,93 @@ const Home = () => {
                                A researcher on health matters.</p>
 
                      </div>
-
-
                  </div>
-
-
                 </div>
-
-
                 </div>
-
              </section>
-
+             <section className="blog-seciton">
+            <div className="container">
+                <div className="section-title text-center">
+                    <h6>Learn more from our blog</h6>
+                    <h2>latest <span>news</span></h2>
+                    <p>A community of friends, from all over the world , with a mission.<br/> 
+                        A mission to provide solutions to life challenges in slums</p>
+                </div>
+                <div className="row">
+                    <div className="col-md-3 col-sm-6 col-xs-12">
+                        {/* -- Start single-item -- */}
+                        <div className="blog-item wow fadeInUp">
+                            <div className="img-holder">
+                               <figure><Link to="/single-blog"><img src="images/blog/10.jpg" alt="Images"/></Link></figure>
+                            </div>
+                            <div className="text">
+                                <h4><Link to="/single-blog">Children’s National<br/>festival for learning</Link></h4>
+                                <h5><i className="fa fa-user" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <h5><i className="fa fa-map-marker" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <p> A community of friends, from all over the world , with a mission.<br/>
+                                A mission to provide solutions to life challenges in slums</p>
+                                <a href="#"className="dont-btn">Donate now</a>
+                            </div>
+                        </div>
+                        {/* -- End single-item -- */}
+                    </div>
+                    <div className="col-md-3 col-sm-6 col-xs-12">
+                        {/* -- Start single-item -- */}
+                        <div className="blog-item wow fadeInUp">
+                            <div className="img-holder">
+                               <figure><Link to="/single-blog"><img src="images/blog/11.jpg" alt="Images"/></Link></figure>
+                            </div>
+                            <div className="text">
+                                <h4><Link to="/single-blog">Children’s National<br/>festival for learning</Link></h4>
+                                <h5><i className="fa fa-user" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <h5><i className="fa fa-map-marker" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <p>A community of friends, from all over the world , with a mission.
+                                A mission to provide solutions to life challenges in slums.
+                                </p>
+                                <a href="#"className="dont-btn">Donate now</a>
+                            </div>
+                        </div>
+                    {/* -- End single-item -- */}
+                    </div>
+                    <div className="col-md-3 col-sm-6 col-xs-12">
+                        {/* -- Start single-item -- */}
+                        <div className="blog-item wow fadeInUp">
+                            <div className="img-holder">
+                               <figure><Link to="/single-blog"><img src="images/blog/12.jpg" alt="Images" /></Link></figure>
+                            </div>
+                            <div className="text">
+                                <h4><Link to="/single-blog">Children’s National<br/>festival for learning</Link></h4>
+                                <h5><i className="fa fa-user" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <h5><i className="fa fa-map-marker" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <p>A community of friends, from all over the world , with a mission.
+                                A mission to provide solutions to life challenges in slums.
+                                </p>
+                                <a href="#"className="dont-btn">Donate now</a>
+                            </div>
+                        </div>
+                        {/* -- End single-item -- */}
+                    </div>
+                    <div className="col-md-3 col-sm-6 col-xs-12">
+                        {/* -- Start single-item -- */}
+                        <div className="blog-item wow fadeInUp">
+                            <div className="img-holder">
+                               <figure><Link to="/single-blog"><img src="images/blog/13.jpg" alt="Images"/></Link></figure>
+                            </div>
+                            <div className="text">
+                                <h4><Link to="/single-blog">Children’s National<br />festival for learning</Link></h4>
+                                <h5><i className="fa fa-user" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <h5><i className="fa fa-map-marker" aria-hidden="true"></i>By <span>John Doe</span></h5>
+                                <p>A community of friends, from all over the world , with a mission.
+                                A mission to provide solutions to life challenges in slums.
+                                </p>
+                                <a href="#"className="dont-btn">Donate now</a>
+                            </div>
+                        </div>
+                        {/* -- End single-item -- */}
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
