@@ -629,11 +629,13 @@ const Home = () => {
                             </div>
                             <p>A servant with dignity<br/>
                                 Considerate about other people's welfare.</p>
-                    
                         </div>
+                 </div>
+                 <div className="client-item">
 
 
-          </div>
+                    
+                 </div>
 
 
                 </div>
