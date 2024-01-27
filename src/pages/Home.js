@@ -619,9 +619,20 @@ const Home = () => {
                          </div>
                     </div>
           <div className="client-item">
+          <div className="client">
+              <div className="img-holder">
+                  <figure><img src="images/blog/4.png" alt="Images" /></figure>
+                      </div>
+                         <div className="text">
+                            <h4>Sara leon</h4>
+                                <p>ceo of Lesmo group</p>
+                            </div>
+                            <p>A servant with dignity<br/>
+                                Considerate about other people's welfare.</p>
+                    
+                        </div>
 
 
-            
           </div>
 
 
