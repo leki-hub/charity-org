@@ -771,46 +771,46 @@ const Home = () => {
                     </div>
                     <div className="col-md-5  col-sm-9">
                         <div className="default-form clearfix">
-                        <form method="post" className="contact-form" onSubmit={(e) => handleSubmit(onSubmit(e))}>
-                      <div className="form-group name">
-                  <input
-          type="text"
-          name="lastname"
-          placeholder="Full Name"
-          ref={register({ required: 'Full Name is required' })}
-        />
-        {errors.lastname && <span>{errors.lastname.message}</span>}
-      </div>
-      <div className="form-group">
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          ref={register({ required: 'Email is required', pattern: /^\S+@\S+$/i })}
-        />
-        {errors.email && <span>{errors.email.message}</span>}
-      </div>
-      <div className="form-group">
-        <input
-          type="text"
-          name="phone"
-          placeholder="Mobile"
-          ref={register({ required: 'Mobile is required' })}
-        />
-        {errors.phone && <span>{errors.phone.message}</span>}
-      </div>
-      <div className="form-group comments">
-        <textarea
-          name="message"
-          placeholder="Text"
-          ref={register({ required: 'Message is required' })}
-        ></textarea>
-        {errors.message && <span>{errors.message.message}</span>}
-      </div>
-      <button type="submit" className="btn btn-1">
-        Contact Now
-      </button>
-    </form>
+                     <form method="post" className="contact-form" onSubmit={(e) => handleSubmit(onSubmit(e))}>
+                             <div className="form-group name">
+                             <input
+                             type="text"
+                             name="lastname"
+                             placeholder="Full Name"
+                             ref={register({ required: 'Full Name is required' })}
+                              />
+                             {errors.lastname && <span>{errors.lastname.message}</span>}
+                            </div>
+                            <div className="form-group">
+                             <input
+                             type="email"
+                             name="email"
+                             placeholder="Email"
+                             ref={register({ required: 'Email is required', pattern: /^\S+@\S+$/i })}
+                              />
+                            {errors.email && <span>{errors.email.message}</span>}
+                            </div>
+                            <div className="form-group">
+                            <input
+                            type="text"
+                            name="phone"
+                            placeholder="Mobile"
+                            ref={register({ required: 'Mobile is required' })}
+                            />
+                            {errors.phone && <span>{errors.phone.message}</span>}
+                           </div>
+                           <div className="form-group comments">
+                             <textarea
+                            name="message"
+                             placeholder="Text"
+                            ref={register({ required: 'Message is required' })}
+                             ></textarea>
+                           {errors.message && <span>{errors.message.message}</span>}
+                             </div>
+                          <button type="submit" className="btn btn-1">
+                           Contact Now
+                           </button>
+                  </form>
                     </div>
                     </div>
                     
