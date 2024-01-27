@@ -731,7 +731,17 @@ const Home = () => {
                 </div>
             </div>
         </section>
-
+          {/* --Start volunteer-section -- */}
+          <section className="volunteer-section" style={{backgroundImage:'url(images/blog/bg6.jpg)'}}>
+            <div className="container">
+                <div className="volunteer-item">
+                    <h2>WE HELP many people</h2>
+                    <h4>want to become a <span> volunteer!</span></h4>
+                    <p>There is freewill to join our growing community <br/>, don't be left out.Be an agent that stands with humanity</p>
+                    <a href="#" className="btn-3">Apply now</a>
+                </div> 
+            </div>
+        </section>
 
 
 
