@@ -633,8 +633,10 @@ const Home = () => {
                  </div>
                  <div className="client-item">
                      <div className="client">
+                     <div className="img-holder">
+                                <figure><img src="images/blog/4.png" alt="Images" /></figure>
+                            </div>
 
-                        
                      </div>
 
 
