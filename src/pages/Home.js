@@ -742,7 +742,44 @@ const Home = () => {
                 </div> 
             </div>
         </section>
-
+          {/* --.contact-seciton-- */}
+          <section className="contact-seciton" style={{backgroundImage:'url(images/blog/bg1.jpg)'}}>
+            <div className="img-left wow slideInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <figure><img src="images/blog/2.png" alt="Images" /></figure>
+            </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-3 col-md-offset-4 col-sm-3">
+                        <div className="text">
+                        <h2>Raise your<br/>
+                            <span>Hand</span> to<br/>
+                            help<br/> 
+                            <span className="them">Them!</span></h2>
+                        </div>
+                    </div>
+                    <div className="col-md-5  col-sm-9">
+                        <div className="default-form clearfix">
+                            <form method="post" className="contact-form">
+                                <div className="form-group name">
+                                    <input type="text" name="lastname" placeholder="Full Name"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="email" name="email" placeholder="Email"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="email" name="phone" placeholder="Mobile "/>
+                                </div>
+                                <div className="form-group comments">
+                                    <textarea name="message" placeholder="Text"></textarea>
+                                </div>
+                                <button type="submit" className="btn btn-1">Contact Now</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
 
 
 
