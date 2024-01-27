@@ -632,9 +632,12 @@ const Home = () => {
                         </div>
                  </div>
                  <div className="client-item">
+                     <div className="client">
+
+                        
+                     </div>
 
 
-                    
                  </div>
 
 
