@@ -640,7 +640,8 @@ const Home = () => {
                                 <h4>burtho leo</h4>
                                 <p>doctor</p>
                             </div>
-
+                            <p>A distinguished medical practictioner<br/>
+                               A researcher on health matters.</p>
 
                      </div>
 
