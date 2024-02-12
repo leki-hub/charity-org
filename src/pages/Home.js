@@ -820,8 +820,10 @@ const Home = () => {
         {/* --.news-section-- */}
         <div className="news-seciton">
            <div className="container">
+                 <div className="row">
+                    
+                 </div>
 
-            
            </div>
 
 
