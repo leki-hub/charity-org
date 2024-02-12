@@ -817,6 +817,12 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        {/* --.news-section-- */}
+        <div className="news-seciton">
+
+
+            
+        </div>
 
 
 
