@@ -828,8 +828,12 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-7 col-sm-6 col-xs-12">
+                    <div className="news-form">
+                            <input type="text" name="lastname" placeholder="Full Name" value="" />
+                            <input type="email" name="email" placeholder="Email" value=""/>
+                            <button type="submit" className="btn news-btn">send</button>
+                        </div>
 
-                        
                     </div>
 
                  </div>
