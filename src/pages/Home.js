@@ -827,6 +827,11 @@ const Home = () => {
                             <p>Would you like to be getting updates from our activties,subscribe to our Newsletter.</p>
                         </div>
                     </div>
+                    <div className="col-md-7 col-sm-6 col-xs-12">
+
+                        
+                    </div>
+
                  </div>
 
            </div>
